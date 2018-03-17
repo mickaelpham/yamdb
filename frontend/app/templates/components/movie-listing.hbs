@@ -1,5 +1,5 @@
-<article class="movie">
-  <h3>{{movie.title}}</h3>
+<article class="movie-listing">
+  <h3>{{link-to movie.title 'movie.show' movie}}</h3>
 
   {{#if movie.originalTitle}}
     <p>Original title: {{movie.originalTitle}}</p>
