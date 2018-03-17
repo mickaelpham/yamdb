@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'ember-cli-rails'
+gem 'jsonapi-resources'
 gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1.5'
 gem 'sqlite3'

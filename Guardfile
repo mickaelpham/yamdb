@@ -1,1 +1,1 @@
-directories %w(app spec lib config)
+directories %w[app spec lib config]
