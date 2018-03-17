@@ -1,0 +1,10 @@
+AllCops:
+  Exclude:
+    - db/**/*
+
+Style/Documentation:
+  Enabled: false
+
+Style/MixinUsage:
+  Exclude:
+    - bin/**/*
