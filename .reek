@@ -5,3 +5,4 @@ IrresponsibleModule:
 
 exclude_paths:
   - db
+  - frontend

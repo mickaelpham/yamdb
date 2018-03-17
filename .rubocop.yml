@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - db/**/*
+    - frontend/**/*
 
 Style/Documentation:
   Enabled: false
