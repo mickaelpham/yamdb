@@ -1,0 +1,22 @@
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      {{link-to 'yamDB' 'index' class="navbar-item site-brand"}}
+
+      <div class="navbar-burger {{if isExpanded 'is-active'}}" {{action 'toggleMenu'}}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="navbar-menu {{if isExpanded 'is-active'}}">
+      <div class="navbar-start">
+        {{link-to 'Movies' 'movies' class="navbar-item"}}
+      </div>
+
+      <div class="navbar-end">
+      </div>
+    </div>
+  </div>
+</nav>
