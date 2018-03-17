@@ -1,11 +1,15 @@
-<div class="movie-show">
-  <h2>{{model.title}}</h2>
+<section class="section">
+  <div class="container">
+    <div class="movie-show content">
+      <h2>{{model.title}}</h2>
 
-  {{#if model.originalTitle}}
-    <p>Original title: {{model.originalTitle}}</p>
-  {{/if}}
+      {{#if model.originalTitle}}
+        <p>Original title: {{model.originalTitle}}</p>
+      {{/if}}
 
-  <p>Synopsis: {{model.synopsis}}</p>
-</div>
+      <p>Synopsis: {{model.synopsis}}</p>
+    </div>
 
-<p>{{link-to 'All movies' 'movies'}}</p>
+    <p>{{link-to 'All movies' 'movies'}}</p>
+  </div>
+</section>
