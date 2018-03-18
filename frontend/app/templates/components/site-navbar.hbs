@@ -3,14 +3,14 @@
     <div class="navbar-brand">
       {{link-to 'yamDB' 'index' class="navbar-item site-brand"}}
 
-      <div class="navbar-burger {{if isExpanded 'is-active'}}" {{action 'toggleMenu'}}>
+      <div class="navbar-burger {{if expanded 'is-active'}}" {{action onBurgerClick}}>
         <span></span>
         <span></span>
         <span></span>
       </div>
     </div>
 
-    <div class="navbar-menu {{if isExpanded 'is-active'}}">
+    <div class="navbar-menu {{if expanded 'is-active'}}">
       <div class="navbar-start">
         {{link-to 'Movies' 'movies' class="navbar-item"}}
       </div>
