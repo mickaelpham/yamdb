@@ -3,6 +3,11 @@ AllCops:
     - db/**/*
     - frontend/**/*
 
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+  Exclude:
+    - config/application.rb
+
 Style/Documentation:
   Enabled: false
 
